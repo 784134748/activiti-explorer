@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="activiti-explorer:war exploded">
-    <output-path>$PROJECT_DIR$/target/activiti-explorer</output-path>
+    <output-path>$PROJECT_DIR$/target/artifacts/activiti_explorer_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -40,7 +40,6 @@
           <element id="library" level="project" name="Maven: org.activiti:activiti-process-validation:5.22.0" />
           <element id="library" level="project" name="Maven: com.vaadin:vaadin:6.8.8" />
           <element id="library" level="project" name="Maven: org.imgscalr:imgscalr-lib:4.2" />
-          <element id="library" level="project" name="Maven: javax:javaee-api:7.0" />
           <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.5.0" />
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.1" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
@@ -71,7 +70,6 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.4" />
           <element id="library" level="project" name="Maven: net.sf.ezmorph:ezmorph:1.0.4" />
-          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.4" />
           <element id="library" level="project" name="Maven: javax.mail:mail:1.4" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.1" />
@@ -100,9 +98,6 @@
           <element id="library" level="project" name="Maven: xml-apis:xml-apis-ext:1.3.04" />
           <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.3.04" />
         </element>
-      </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/activiti-explorer/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="activiti-explorer/web/Web" />
     </root>
